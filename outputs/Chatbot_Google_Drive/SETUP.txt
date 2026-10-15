@@ -1,0 +1,99 @@
+CHATBOT: GOOGLE DRIVE SETUP
+
+Your results sheet already exists:
+https://docs.google.com/spreadsheets/d/1yOg9Z8V4hDKEPuaNrNnADbxHj6ugBpl0m-ThaCgPbkQ/edit
+
+This version hosts the review page with Google Apps Script and stores reviews in
+the Reviews tab. No PHP or private-server configuration changes are required.
+It retains all 1,795 original questions. The original Downloads files were not changed.
+
+ONE-TIME SETUP
+1. Open the sheet using the Google account that owns it.
+2. Choose Extensions > Apps Script.
+3. Replace the contents of Code.gs with the full contents of the supplied Code.gs.
+   Its spreadsheet ID is already configured for your new sheet.
+4. Click + next to Files > HTML. Name the file Index (capital I).
+   Replace its starter contents with the full contents of supplied Index.html.
+5. Save the project. Name it Biblioteca Chatbot Review.
+6. Click Deploy > New deployment. Select type Web app.
+   Execute as: Me.
+   Who has access: Only myself for the first test.
+7. Click Deploy, review and approve Google's requested permissions, then copy
+   the Web app URL ending in /exec. Open this URL to use the review page.
+   A locally opened Index.html or your old private-server page will not use this
+   integration. google.script.run requires the Google-hosted page.
+8. Enter one of the registered COLMEX IDs on the opening screen. Review one question
+   and click Guardar y siguiente. Verify a row appears in Reviews and the page
+   says Guardado en Google Sheets.
+9. To allow coworkers, edit the deployment's access setting to your organization
+   if that option is available. Keep the results sheet private unless you want
+   to give other people direct access to it. Apps Script runs as the sheet owner.
+   If coworkers are outside your organization or your account does not offer
+   organization access, decide the required access before widening deployment.
+   Anyone access would expose the review app and its save/load functions publicly.
+
+OPTIONAL: KEEP A LINK ON YOUR PRIVATE WEBSITE
+Replace REPLACE_WITH_GOOGLE_WEB_APP_EXEC_URL in private-server-index.html
+with the deployment URL. Upload it as index.html to your private server.
+Back up your existing server index.html before replacing it. This launcher opens
+the Google-hosted review app. Google hosts both the question content and results.
+
+CURRENT LIVE APP
+https://script.google.com/macros/s/AKfycbxeSpCtFkvQwm-pfXAkuTfogjt2rzWAv-RNCDI9svdWjglW_ISy8jmMzLlPEfSNLJsK/exec
+Version 4 is deployed and tested.
+
+COLMEX ID WORKFLOW
+The app asks for an ID every time it is opened or refreshed. Questions stay hidden
+until the ID is accepted. IDs are trimmed and compared without case sensitivity.
+Only these 23 IDs are accepted:
+mch, fmejia, macontreras, mmena, jvortiz, asmartinez, rcuellar, ecisneros,
+argonzalez, guvega, cescobar, lvergara, mdiosda, nangeles, eruvalcaba, jescobar,
+mquiroa, cyasmina, tbocanegra, bcastro, cpalacios, cromero, vjcid.
+Other IDs receive Usuario no registrado.
+The server also enforces this list for saving and loading. This is an ID list
+check, not password authentication or verification of ID ownership.
+The accepted ID becomes the fixed reviewer ID. Its progress loads automatically.
+
+REVIEW WORKFLOW
+Correcta saves the proposed answer and advances immediately after Google confirms
+saving. If there is no proposed answer, an answer must be supplied first.
+Yellow opens answer corrections. Red opens intent corrections.
+Each ID/question pair has one row. Saving again updates that row.
+Different IDs have separate rows.
+If saving fails, an error stays visible under Opciones y respaldo. Use Enviar mis
+ evaluaciones pendientes to retry. Do not clear browser data while reviews remain
+unsent. CSV and JSON exports remain available. Clearing browser progress does not
+delete rows from Google Sheets. Do not rename the Reviews tab or its headers.
+
+TRANSFER EXISTING REVIEWS
+Export a JSON backup from the original page. Enter the corresponding registered
+COLMEX ID in the new Google app and use Cargar respaldo JSON. Backups must belong
+to that same ID. Blank reviewer labels are assigned to the current ID. Backups
+with other names/initials need an explicit mapping before import; do not alter
+other reviewers' identities automatically. Use Enviar mis evaluaciones pendientes
+to transfer the imported reviews, then verify the rows in the sheet.
+
+VERIFICATION
+Local checks covered all 23 registered IDs, rejected unregistered login/read/write,
+normalization, JavaScript syntax, all original questions, updates, reviewer
+separation, stale-write rejection, locks and literal formula-like text.
+The live app was checked with a rejected ID, accepted asmartinez, automatic progress
+loading and a refresh that returned to the ID screen. No review was saved under
+asmartinez during the login test. Prior one-click saving was tested in Version 3.
+After later script edits, update the existing deployment to a new version.
+
+Google's deployment instructions:
+https://developers.google.com/apps-script/guides/web
+Google's browser-to-script API:
+https://developers.google.com/apps-script/guides/html/communication
+
+CHATBOT REPORTS (updated October 7, 2026)
+Reports.html is a third HTML file in the same Apps Script project. Keep Code.gs, Index.html and Reports.html together.
+The existing deployed app now supports:
+  ?view=report#<encoded report JSON> — opens a prefilled submission form.
+  ?view=reports — registered COLMEX reviewers evaluate submitted chatbot questions.
+The chatbot's Reportar pregunta / Report question link opens the submission form with the exact question and displayed AI answer. Google sign-in is required by the existing deployment. Click Enviar reporte / Submit report to send it; merely opening the form does not submit.
+Reports are stored in a new Reports tab in the same spreadsheet. Evaluations are saved in Reviews with REP- prefixed question IDs. The original question-review progress remains separate. Reports do not automatically change the chatbot knowledge base.
+Repeated submissions of the same report ID do not create duplicate rows. All question and answer text is displayed as text, not executed as HTML. No visitor email or full conversation is attached.
+Review queue:
+https://script.google.com/macros/s/AKfycbxeSpCtFkvQwm-pfXAkuTfogjt2rzWAv-RNCDI9svdWjglW_ISy8jmMzLlPEfSNLJsK/exec?view=reports

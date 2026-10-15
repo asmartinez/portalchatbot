@@ -1,0 +1,47 @@
+{
+  "Q-1661": {
+    "id": "Q-1661",
+    "question": "¿El repositorio de El Colegio de México utiliza Handles?",
+    "answer": "Sí, el repositorio de El Colegio de México utiliza un servicio de creación de Handles para garantizar el acceso persistente a los recursos digitales. Esto permite que los objetos almacenados en el repositorio tengan un identificador único y fiable, asegurando su accesibilidad a largo plazo.",
+    "source": "Curated knowledge-base query",
+    "answerSource": "Curated knowledge-base query::Servicios_de_Handle_en_el_repositorio | handle/Servicios_de_Handle_en_el_repositorio.txt",
+    "answerStatus": "Respuesta existente para revisar",
+    "intentId": "",
+    "intentName": "Por clasificar",
+    "intentConfidence": "Low",
+    "canonical": false,
+    "reviewed": false,
+    "answerReviewed": false,
+    "answerOriginId": "Q-1661"
+  },
+  "Q-1665": {
+    "id": "Q-1665",
+    "question": "¿Qué dificultades técnicas enfrentaron en el desarrollo del repositorio?",
+    "answer": "Se enfrentaron a dificultades como la falta de documentación en español, poco conocimiento en Ruby y complejidad del sistema. También hubo retos en la implementación de la interoperabilidad con Conacyt.",
+    "source": "Curated knowledge-base query",
+    "answerSource": "Curated knowledge-base query::Retos_técnicos_del_repositorio | repositorio/Retos_técnicos_del_repositorio.txt",
+    "answerStatus": "Respuesta existente para revisar",
+    "intentId": "",
+    "intentName": "Por clasificar",
+    "intentConfidence": "Low",
+    "canonical": false,
+    "reviewed": false,
+    "answerReviewed": false,
+    "answerOriginId": "Q-1665"
+  },
+  "Q-1670": {
+    "id": "Q-1670",
+    "question": "¿Qué tecnología utiliza el repositorio institucional del Colmex?",
+    "answer": "El Repositorio Institucional reúne producción académica de El Colegio de México, como artículos, libros, capítulos, tesis y trabajos presentados en conferencias. El texto completo se incorpora cuando los derechos y permisos lo permiten.",
+    "source": "Curated knowledge-base query",
+    "answerSource": "https://biblioteca.colmex.mx/index.php/informacion-general/nuestras-colecciones",
+    "answerStatus": "Respuesta propuesta",
+    "intentId": "BDCV-023",
+    "intentName": "Repositorio Institucional",
+    "intentConfidence": "High",
+    "canonical": false,
+    "reviewed": false,
+    "answerReviewed": false,
+    "answerOriginId": "Q-1670"
+  }
+}

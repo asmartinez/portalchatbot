@@ -1,0 +1,22 @@
+Biblioteca chatbot sandbox — updated October 7, 2026
+
+https://colmex-chatbot-sandbox.bibliocolmex-1952.chatgpt.site
+
+Knowledge:
+43 current canonical topics are bundled on the server. The 20 questions reviewed by asmartinez in the Google Sheet override the corresponding original answers. The remaining 23 are provisional for sandbox testing. Historical patron transcripts and reviewer metadata are not published. This is a snapshot, not automatic Google Sheet synchronization.
+
+Gemini key:
+The replacement Gemini key was accepted by Google and configured as a hosted secret. It is not embedded in client code or published source. Live tests passed for a corrected Spanish membership answer and an English follow-up preserving the Spanish conversation context. The latest 40 user/model messages are sent to Gemini in chronological order. The local ignored .env file remains owner-readable only; do not share it or paste its contents in chat. Broader multilingual quality still needs colleague testing.
+
+Human support:
+Designated recipient: asmartinez@colmex.mx.
+Hours: Monday–Friday, 09:00–17:00, America/Mexico_City. At 17:00 support is closed. Holiday rules are not configured.
+Teams is NOT connected yet. IT approval, app/bot registration, securely configured Microsoft credentials and personal app installation are required. The website does not have a staff inbox, and staff-to-staff transfers are disabled. Requests clearly explain that Teams is unavailable rather than promising an unanswered connection.
+
+Access:
+The sandbox remains owner-private. Colleague access still needs the owner's choice of invitations or broader sharing. Gemini and Teams are separate integrations.
+
+Knowledge update — October 8, 2026
+The complete question catalogue is now included: 1,795 records, with 717 proposed answers and 1,078 records without an answer. The original 43 canonical answers and 20 reviewed corrections are preserved. Existing proposed answers attached to a reviewed canonical intent use that correction.
+The directory, history and AtoM/archive information remains available as 15 supplementary sections. The chatbot searches relevant questions and distinct answers rather than sending the full catalogue for every response. Unanswered historical questions are matching examples only and do not supply factual answers.
+Reported questions are saved to Reports in the existing Google Sheet. A registered reviewer evaluates them through the Reports queue; evaluations are saved in Reviews. Reviewed reports do not automatically alter chatbot knowledge or publish a new version.

@@ -1,0 +1,17 @@
+import fs from 'node:fs/promises';
+import {Workbook, SpreadsheetFile} from '@oai/artifact-tool';
+const headers=['question_id','question','source','proposed_intent_id','proposed_intent','proposed_answer','answer_source','rating','corrected_intent_id','corrected_intent_name','new_intent','correct_answer','comment','reviewer','reviewed_at','server_saved_at'];
+const wb=Workbook.create();
+const s=wb.worksheets.add('Reviews');
+s.getRange('A1:P1').values=[headers];
+s.getRange('A1:P1').format={font:{name:'Arial',size:11,bold:true,color:'#000000'},fill:'#eeeeee',wrapText:true,rowHeight:44,columnWidth:24,verticalAlignment:'center'};
+s.getRange('B1').format.columnWidth=50;
+s.getRange('F1').format.columnWidth=50;
+s.getRange('L1:M1').format.columnWidth=50;
+s.freezePanes.freezeRows(1);
+s.freezePanes.freezeColumns(1);
+wb.recalculate();
+console.log((await wb.inspect({kind:'table',range:'Reviews!A1:P1',include:'values,formulas',tableMaxCols:16,tableMaxRows:1,maxChars:2500})).ndjson);
+const preview=await wb.render({sheetName:'Reviews',range:'A1:F3',scale:1,format:'png'});
+await fs.writeFile(new URL('./sheet-preview.png',import.meta.url),new Uint8Array(await preview.arrayBuffer()));
+await (await SpreadsheetFile.exportXlsx(wb)).save(new URL('./chatbot-reviews.xlsx',import.meta.url).pathname);

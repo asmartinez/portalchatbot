@@ -1,0 +1,76 @@
+CHATBOT: GOOGLE DRIVE SETUP
+
+Your results sheet already exists:
+https://docs.google.com/spreadsheets/d/1yOg9Z8V4hDKEPuaNrNnADbxHj6ugBpl0m-ThaCgPbkQ/edit
+
+This version hosts the review page with Google Apps Script and stores reviews in
+the Reviews tab. No PHP or private-server configuration changes are required.
+It retains all 1,795 original questions. The original Downloads files were not changed.
+
+ONE-TIME SETUP
+1. Open the sheet using the Google account that owns it.
+2. Choose Extensions > Apps Script.
+3. Replace the contents of Code.gs with the full contents of the supplied Code.gs.
+   Its spreadsheet ID is already configured for your new sheet.
+4. Click + next to Files > HTML. Name the file Index (capital I).
+   Replace its starter contents with the full contents of supplied Index.html.
+5. Save the project. Name it Biblioteca Chatbot Review.
+6. Click Deploy > New deployment. Select type Web app.
+   Execute as: Me.
+   Who has access: Only myself for the first test.
+7. Click Deploy, review and approve Google's requested permissions, then copy
+   the Web app URL ending in /exec. Open this URL to use the review page.
+   A locally opened Index.html or your old private-server page will not use this
+   integration. google.script.run requires the Google-hosted page.
+8. Enter your name or initials under Opciones y respaldo. Review one question
+   and click Guardar y siguiente. Verify a row appears in Reviews and the page
+   says Guardado en Google Sheets.
+9. To allow coworkers, edit the deployment's access setting to your organization
+   if that option is available. Keep the results sheet private unless you want
+   to give other people direct access to it. Apps Script runs as the sheet owner.
+   If coworkers are outside your organization or your account does not offer
+   organization access, decide the required access before widening deployment.
+   Anyone access would expose the review app and its save/load functions publicly.
+
+OPTIONAL: KEEP A LINK ON YOUR PRIVATE WEBSITE
+Replace REPLACE_WITH_GOOGLE_WEB_APP_EXEC_URL in private-server-index.html
+with the deployment URL. Upload it as index.html to your private server.
+Back up your existing server index.html before replacing it. This launcher opens
+the Google-hosted review app. Google hosts both the question content and results.
+
+TRANSFER EXISTING REVIEWS
+1. In your ORIGINAL private-server page, use Guardar respaldo JSON.
+2. Open the NEW Google app URL, use Cargar respaldo JSON and choose that backup.
+3. Check the name or initials. Click Enviar mis evaluaciones pendientes a Google Sheets.
+   Only reviews matching that name (or reviews without a name) are uploaded.
+   Use each reviewer's name to upload their reviews separately if necessary.
+4. Verify the uploaded rows in Reviews before clearing any old browser data.
+
+HOW UPDATES WORK
+Each reviewer/question pair has one row. Saving again updates that row.
+Different reviewers have separate rows. Use a unique, consistent name or initials.
+Names are labels, not identity authentication; deployment access controls access.
+Progress in the browser is kept separately for each reviewer.
+On another device, enter the same name, then choose Cargar mis evaluaciones de
+Google Sheets. It merges cloud reviews while keeping newer unsent local reviews.
+If saving fails, an error stays visible under Opciones y respaldo. Use Enviar mis
+evaluaciones pendientes to retry. A review is marked cloud-saved only after
+Google confirms the write. Do not clear browser data while reviews are pending.
+CSV and JSON exports remain available. Clearing browser progress does not delete
+rows from Google Sheets. Changing a reviewer's name creates a different reviewer.
+Do not rename the Reviews tab or its headers. Manual row edits in the sheet are
+possible, but records and timestamps are best updated through the review app.
+After editing Apps Script later, update the existing deployment to a new version.
+
+VERIFICATION
+The Google Sheet was created and read back through the Drive connector.
+Local checks covered JavaScript syntax, preserving all questions, updating rows,
+reviewer separation, loading saved reviews, stale-write rejection, validation,
+lock release and storing formula-like text literally.
+Google Apps Script has not been deployed or authorized yet. The first live
+save must be checked after the one-time setup above.
+
+Google's deployment instructions:
+https://developers.google.com/apps-script/guides/web
+Google's browser-to-script API:
+https://developers.google.com/apps-script/guides/html/communication

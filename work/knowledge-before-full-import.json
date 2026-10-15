@@ -1,0 +1,306 @@
+{
+  "reviewedCount": 20,
+  "entries": [
+    {
+      "id": "CAN-001",
+      "question": "¿Cuál es la página web de la Biblioteca Daniel Cosío Villegas?",
+      "answer": "El portal oficial de la Biblioteca Daniel Cosío Villegas es https://biblioteca.colmex.mx",
+      "source": "https://biblioteca.colmex.mx/",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-002",
+      "question": "¿Cuál es el horario de la Biblioteca?",
+      "answer": "La Biblioteca abre de lunes a viernes de 8:30 a 20:30 horas.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-003",
+      "question": "¿Cuál es la dirección de la Biblioteca?",
+      "answer": "La Biblioteca está en El Colegio de México, Carretera Picacho Ajusco 20, Col. Ampliación Fuentes del Pedregal, Alcaldía Tlalpan, C.P. 14110, Ciudad de México.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-004",
+      "question": "¿Cómo puedo comunicarme con la Biblioteca?",
+      "answer": "Puede contactar a la Biblioteca Daniel Cosío Villegas por teléfono al 55 5449 3000 o por correo electrónico en biblio2@colmex.mx.\n\nSi desea contactar directamente a una persona o área específica de la Biblioteca, puede consultar nuestro directorio: https://biblioteca.colmex.mx/index.php/contacto/personal.  Tambien puede hablar con alguien por este chat.",
+      "source": "https://biblioteca.colmex.mx/index.php/contacto",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-005",
+      "question": "¿Puedo entrar a la Biblioteca si no pertenezco a El Colegio de México?",
+      "answer": "Sí. La Biblioteca Daniel Cosío Villegas es una biblioteca pública y está abierta al público en general, aunque no pertenezcas a El Colegio de México.\n\nPara ingresar, solo necesitas presentar una identificación oficial vigente y registrarte en la entrada principal de El Colegio.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-006",
+      "question": "¿Cómo puedo obtener una membresía de la Biblioteca?",
+      "answer": "Para obtener una membresía de la Biblioteca, debes llenar la Solicitud de membresía y enviarla a la Coordinación de Servicios junto con tu documentación.\nSi eres usuario visitante, necesitas:\n- Comprobante de domicilio en la Ciudad de México o zona metropolitana.\n- Identificación oficial vigente por ambos lados.\n- Fotografía digital reciente.\n- Donativo anual de $300 MXN.\nSi además quieres préstamo a domicilio, se requiere un depósito en garantía de $2,000 MXN, que es reembolsable al finalizar la membresía.\nLa membresía tiene una vigencia de un año y puede renovarse.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-007",
+      "question": "¿Puedo consultar el acervo sin tener membresía?",
+      "answer": "Sí. Puedes consultar el acervo sin membresía mediante un pase gratuito, con vigencia de 1 a 15 días. Solo necesitas presentar una identificación vigente con fotografía.\n\nSolicita tu pase en el mostrador de circulación al llegar.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-008",
+      "question": "¿Quién puede orientarme sobre los servicios y recursos de la Biblioteca?",
+      "answer": "Si eres parte de la comunidad Colmex, puedes acudir con el bibliógrafo asignado a tu Centro. Si eres visitante, dirígete al módulo de orientación, que es el primer mostrador frente a la entrada de la Biblioteca. Ahí pueden ayudarte con dudas sobre trámites, servicios y recursos.\n\nTambién puedes escribir a biblio2@colmex.mx.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-009",
+      "question": "¿Cómo puedo agendar una consulta especializada con un bibliógrafo?",
+      "answer": "Puedes agendar una consulta con un bibliógrafo, ya sea presencial o virtual, para recibir asesoría sobre un tema específico.\n\nPuedes reservar una cita aquí:\nhttps://bookings.cloud.microsoft/book/BibliotecaDanielCosoVillegas@colmex.mx/?ismsaljsauthenabled=true\n\nTambién puedes consultar el directorio del personal para saber con quién comunicarte según tu área o necesidad:\nhttps://biblioteca.colmex.mx/index.php/contacto/personal\n\nSi no sabes a quién dirigirte, escribe a biblio2@colmex.mx y te orientamos.",
+      "source": "https://biblioteca.colmex.mx/",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-010",
+      "question": "¿Cómo busco un libro en el catálogo?",
+      "answer": "Entra al catálogo en línea de la Biblioteca y busca por autor, título o palabras relacionadas con el tema que te interesa.\n\nPuedes consultar el catálogo aquí:\nhttps://colmex-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=52COLMEX_INST\n\nAhí podrás verificar si el libro está disponible y dónde se encuentra.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-011",
+      "question": "¿Puedo consultar texto completo desde el catálogo?",
+      "answer": "Sí, en algunos casos.\n\nSi estás dentro del campus de El Colegio de México, puedes acceder a las bases de datos y recursos electrónicos de la Biblioteca al conectarte a la red institucional, tanto si eres parte de la comunidad Colmex como si eres visitante.\n\nSi eres parte de la comunidad Colmex y estás fuera del campus, puedes acceder de manera remota iniciando sesión con tu cuenta institucional Colmex en el mismo navegador que usarás para consultar el portal de la Biblioteca.\n\nLos visitantes fuera del campus pueden consultar los recursos de acceso abierto.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-012",
+      "question": "¿Cómo activo o recupero mi clave y contraseña del catálogo?",
+      "answer": "Si eres parte de la comunidad Colmex, puedes activar tu clave y contraseña en el mostrador de circulación presentando tu credencial vigente de El Colegio de México.\n\nSi olvidaste tu contraseña, puedes recuperarla desde el enlace de recuperación del catálogo.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-013",
+      "question": "¿Cómo sé si la Biblioteca tiene un libro que necesito?",
+      "answer": "Consulta el catálogo en línea de la Biblioteca y busca por autor, título o tema.\n\nPuedes hacerlo aquí:\nhttps://colmex-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=52COLMEX_INST\n\nEl catálogo te indicará si el libro está disponible y dónde se encuentra.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-014",
+      "question": "¿Cómo puedo consultar las bases de datos de la Biblioteca?",
+      "answer": "Puedes consultar las bases de datos de la Biblioteca desde el portal de recursos electrónicos:\n\nhttps://biblioteca.colmex.mx/\n\nSi estás dentro del campus, puedes acceder a los recursos suscritos al conectarte a la red institucional.\n\nSi eres parte de la comunidad Colmex y estás fuera del campus, inicia sesión con tu cuenta institucional Colmex en el mismo navegador que usarás para consultar los recursos.\n\nLos visitantes fuera del campus pueden consultar los recursos de acceso abierto.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-015",
+      "question": "¿Puedo consultar las bases de datos desde fuera de El Colegio?",
+      "answer": "Sí, si eres parte de la comunidad Colmex.\nPara acceder desde fuera del campus, inicia sesión con tu cuenta institucional Colmex en el mismo navegador que usarás para consultar el portal de la Biblioteca. El sistema reconocerá tu sesión y te dará acceso a las bases de datos y recursos electrónicos suscritos.\n\nSi eres visitante, desde fuera del campus puedes consultar los recursos de acceso abierto.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-016",
+      "question": "¿Puedo descargar información de las bases de datos?",
+      "answer": "En muchas bases de datos es posible guardar, imprimir, descargar o enviar por correo electrónico la información localizada.\n\nLas opciones disponibles y las condiciones de uso dependen de cada base de datos.\n\nSi necesitas ayuda con un recurso específico, consulta a un bibliógrafo de la Biblioteca o escribe a biblio2@colmex.mx.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-017",
+      "question": "¿Cómo puedo consultar los libros electrónicos de la Biblioteca?",
+      "answer": "Puedes consultar los libros electrónicos de la Biblioteca desde el catálogo y los recursos electrónicos del portal de la Biblioteca.\n\nSi estás dentro del campus, puedes acceder a los recursos suscritos al conectarte a la red institucional. Si eres parte de la comunidad Colmex y estás fuera del campus, inicia sesión con tu cuenta institucional Colmex en el mismo navegador que usarás para consultar los recursos.\n\nSi tienes problemas para localizar o abrir un libro electrónico, consulta a un bibliógrafo o escribe a biblio2@colmex.mx.",
+      "source": "https://biblioteca.colmex.mx/",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-018",
+      "question": "¿Cómo puedo obtener el texto completo de un artículo?",
+      "answer": "Si el artículo forma parte de una suscripción de la Biblioteca, podrás consultar el texto completo de acuerdo con las condiciones de acceso del recurso.  No todos ofrecen texto completo.\n\nSi no lo encuentras o tienes problemas para acceder, consulta a un bibliógrafo de la Biblioteca o escribe a biblio2@colmex.mx. Te ayudamos a localizarlo o a identificar otras opciones de acceso.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-019",
+      "question": "¿Cómo puedo consultar revistas y publicaciones periódicas?",
+      "answer": "Puedes buscar revistas y publicaciones periódicas en el catálogo en línea.\n\nSi eres parte de la comunidad Colmex, puedes consultar las publicaciones impresas directamente en el acervo. Si eres visitante, puedes solicitarlas en el mostrador de circulación o pedir un pase gratuito para bajar al acervo.\n\nLas revistas electrónicas están disponibles desde el portal de la Biblioteca. Dentro del campus, el acceso a los recursos suscritos se realiza mediante la red institucional. Fuera del campus, la comunidad Colmex puede acceder de manera remota con su cuenta institucional.\n\nSi necesitas ayuda, escribe a biblio2@colmex.mx.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-020",
+      "question": "¿Cómo puedo buscar y consultar las tesis de El Colegio de México?",
+      "answer": "Puedes consultar las tesis de El Colegio de México en formato electrónico desde el Repositorio Institucional:\nhttps://repositorio.colmex.mx/catalog?f%5Bhuman_readable_type_sim%5D%5B%5D=Thesis\nSi necesitas consultar una tesis impresa, la Biblioteca conserva ejemplares en la Colección Especial. Puedes solicitarlos en el mostrador de circulación con una identificación oficial vigente.",
+      "source": "https://biblioteca.colmex.mx/",
+      "reviewed": true
+    },
+    {
+      "id": "CAN-021",
+      "question": "¿Cómo puedo consultar materiales de la Colección Especial?",
+      "answer": "La Colección Especial reúne principalmente obras publicadas antes de 1931 y otros materiales que requieren preservación. Para consultarlos se solicita cada obra en el mostrador con identificación vigente y la consulta depende del estado físico del material.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-022",
+      "question": "¿Qué colecciones tiene la Biblioteca?",
+      "answer": "La Biblioteca se especializa en Ciencias Sociales y Humanidades y cuenta con colecciones generales, especiales, cartográficas, audiovisuales, asiáticas y africanas, publicaciones periódicas y colecciones digitales, entre otras.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/nuestras-colecciones",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-023",
+      "question": "¿Qué contiene el Repositorio Institucional?",
+      "answer": "El Repositorio Institucional reúne producción académica de El Colegio de México, como artículos, libros, capítulos, tesis y trabajos presentados en conferencias. El texto completo se incorpora cuando los derechos y permisos lo permiten.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/nuestras-colecciones",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-024",
+      "question": "¿Quién puede solicitar libros en préstamo a domicilio?",
+      "answer": "El préstamo a domicilio está disponible para la comunidad Colmex y para usuarios visitantes con membresía que tenga derecho a préstamo. Se requiere credencial vigente al realizar el préstamo.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-025",
+      "question": "¿Cuántos libros puedo pedir prestados y por cuánto tiempo?",
+      "answer": "Los límites dependen del tipo de usuario. Profesores-investigadores: 30 obras por 30 días naturales; estudiantes: 20 obras por 15 días hábiles; personal administrativo: 15 obras por 7 días hábiles; visitantes con membresía: 5 obras por 7 días hábiles.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-026",
+      "question": "¿Cómo renuevo un préstamo?",
+      "answer": "El préstamo puede renovarse si la obra no ha sido reservada por otra persona. La Biblioteca permite renovarlo en línea desde el catálogo antes del vencimiento o en el mostrador de préstamo; el sitio de servicios indica hasta dos renovaciones.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/servicios-que-ofrecemos",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-027",
+      "question": "¿Qué pasa si tengo un préstamo vencido?",
+      "answer": "Si un préstamo está vencido, no se pueden obtener nuevas obras en préstamo hasta renovar o devolver el material vencido.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-028",
+      "question": "¿Qué debo hacer si perdí un libro que tenía en préstamo?",
+      "answer": "Si extravió un material prestado, debe avisar al mostrador de circulación. La Biblioteca indicará el procedimiento de reposición correspondiente.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-029",
+      "question": "¿Cómo funciona el préstamo en sala?",
+      "answer": "Los visitantes pueden consultar materiales en sala. Deben solicitar cada obra en el mostrador mediante la papeleta correspondiente y presentar una identificación oficial vigente. Se pueden solicitar hasta cinco obras a la vez, según la demanda.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-030",
+      "question": "¿Cómo solicito un préstamo interbibliotecario si pertenezco al Colmex?",
+      "answer": "La comunidad Colmex puede solicitar libros por préstamo interbibliotecario mediante el formulario del servicio o con el bibliógrafo de su Centro. Los préstamos vencidos deben regularizarse antes de solicitar este servicio.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-031",
+      "question": "¿Cómo solicito un libro de la BDCV por préstamo interbibliotecario si soy visitante?",
+      "answer": "Si es visitante y desea un libro de la BDCV mediante préstamo interbibliotecario, solicítelo a través de la biblioteca de su institución. Esa biblioteca verificará si existe un convenio vigente y las condiciones aplicables.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-032",
+      "question": "¿Cuánto tarda un préstamo interbibliotecario?",
+      "answer": "Para libros solicitados a instituciones de la Ciudad de México o zona metropolitana, el plazo estimado es de 2 a 3 días hábiles; para instituciones de otras zonas o del extranjero puede ser de hasta 30 días hábiles. Para artículos, el portal indica un plazo promedio de 2 a 15 días.",
+      "source": "https://biblioteca.colmex.mx/index.php/contacto",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-033",
+      "question": "¿Cómo reservo un cubículo de estudio?",
+      "answer": "Los cubículos deben reservarse con anticipación. Los visitantes pueden usar los cubículos de la planta de acceso y del Edificio Mario Ojeda; algunos espacios dentro del acervo son exclusivos de la comunidad Colmex.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-034",
+      "question": "¿Hay Wi-Fi en la Biblioteca?",
+      "answer": "En la Biblioteca puede conectarse a la red wcolmex; la información publicada indica que no requiere contraseña. El acceso está disponible para la comunidad Colmex y visitantes.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-035",
+      "question": "¿La Biblioteca presta computadoras o iPads?",
+      "answer": "La Biblioteca presta computadoras portátiles e iPads a miembros de la comunidad Colmex. La reserva se realiza desde el portal y el equipo se recoge en el mostrador correspondiente.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/servicios-que-ofrecemos",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-036",
+      "question": "¿Puedo fotocopiar o digitalizar materiales?",
+      "answer": "La Biblioteca ofrece fotocopiado y digitalización en modalidad de autoservicio. La reproducción debe respetar la Ley Federal del Derecho de Autor y las condiciones físicas del material.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/servicios-que-ofrecemos",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-037",
+      "question": "¿Cómo funciona el servicio de búsqueda de citas para el SNI?",
+      "answer": "El servicio de búsqueda de citas está dirigido a profesores-investigadores de El Colegio de México y lo atiende el bibliógrafo del Centro correspondiente. Exalumnos y visitantes pueden recibir asesoría para usar las bases de datos donde se obtiene esta información.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-038",
+      "question": "¿La Biblioteca ofrece cursos o sesiones de inducción?",
+      "answer": "La Biblioteca ofrece sesiones de inducción y formación sobre búsqueda y recuperación de información, uso del catálogo y bases de datos. La duración general de una sesión de inducción es de aproximadamente dos horas.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-039",
+      "question": "¿Cómo pongo bibliografía en reserva para un curso?",
+      "answer": "El servicio de reserva permite apartar bibliografía para cursos. La solicitud se realiza con el bibliógrafo del Centro e incluye los datos bibliográficos y la clasificación de los materiales.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-040",
+      "question": "¿Cómo puedo sugerir la compra de un libro?",
+      "answer": "La Biblioteca recibe solicitudes de adquisición y las evalúa de acuerdo con sus políticas de desarrollo de colecciones. El portal incluye un formulario para solicitar la compra de una obra.",
+      "source": "https://biblioteca.colmex.mx/index.php/contacto",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-041",
+      "question": "¿Qué periódicos impresos puedo consultar en la Biblioteca?",
+      "answer": "La Biblioteca ofrece ejemplares impresos de varios diarios nacionales. Los periódicos del día y del día anterior suelen estar disponibles en la planta de acceso; ediciones recientes pueden solicitarse en el mostrador.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-042",
+      "question": "¿Cuál es el horario del módulo de orientación?",
+      "answer": "El módulo de orientación atiende de lunes a viernes de 10:00 a 18:00 horas.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    },
+    {
+      "id": "CAN-043",
+      "question": "¿Qué hago si no puedo entrar a una base de datos o recurso electrónico?",
+      "answer": "Si un recurso electrónico no permite el acceso, confirme que el recurso está incluido en las suscripciones de la Biblioteca y que está usando el acceso institucional correspondiente. Si el problema continúa, solicite apoyo a un bibliógrafo de la Biblioteca.",
+      "source": "https://biblioteca.colmex.mx/index.php/informacion-general/preguntas-frecuentes",
+      "reviewed": false
+    }
+  ]
+}
